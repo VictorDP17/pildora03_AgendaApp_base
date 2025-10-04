@@ -10,8 +10,9 @@ public class Company extends Contact {
         this.description = description;
     }
 
-    @Override public String getName() {
-        return name;
+    @Override
+    public String getName() {
+        return name;  // Para saber si 2 objetos son iguales
     }
 
     public void setName(String name) {
