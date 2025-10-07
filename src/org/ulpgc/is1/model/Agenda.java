@@ -45,4 +45,8 @@ public class Agenda {
     public int contactCount() {
         return contacts.size();
     }
+
+    public void addContact2group(Contact contact) {
+        contacts.add(contact);
+    }
 }
